@@ -1,0 +1,11 @@
+[package]
+name = "caldav-test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+minicaldav = "0.8.0"
+url = "2.5.4"
+ureq = "2"
+clap = { version = "4.5.36", features = ["derive"] }
+ical = "0.11.0"
